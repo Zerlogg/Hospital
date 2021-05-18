@@ -1,0 +1,23 @@
+#mekletArstu {
+    position: absolute;
+    width: 338px;
+    height: 94px;
+    left: 1000px;
+}
+
+#pieteiktViziti {
+    position: absolute;
+    width: 338px;
+    height: 94px;
+    left: 1000px;
+    bottom: 430px;
+}
+
+#mekletViziti {
+    position: absolute;
+    width: 338px;
+    height: 94px;
+    left: 1000px;
+    bottom: 327px;
+}
+
