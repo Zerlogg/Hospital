@@ -1,5 +1,5 @@
 #mekletArstu {
-    position: absolute;
+    position: fixed;
     width: 40%;
     height: 20%;
     left: 52.5%;
@@ -16,7 +16,7 @@
 }
 
 #pieteiktViziti {
-    position: absolute;
+    position: fixed;
     width: 40%;
     height: 20%;
     left: 52.5%;
@@ -33,7 +33,7 @@
 }
 
 #mekletViziti {
-    position: absolute;
+    position: fixed;
     width: 40%;
     height: 20%;
     left: 52.5%;
@@ -69,14 +69,35 @@
 }
 
 #topButtons {
-    position: relative;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    position: fixed;
+    right: 815px;
+    top: 150px;
 }
 
 #mekletArstu2 {
-
+    position: fixed;
+    left: 750px;
+    width: 120px;
+    height: 30px;
+    font-family: Roboto;
+    border-radius: 12px;
 }
 
+#pieteiktViziti2 {
+    position: fixed;
+    left: 900px;
+    width: 120px;
+    height: 30px;
+    font-family: Roboto;
+    border-radius: 12px;
+}
+
+#mekletViziti2 {
+    position: fixed;
+    right: 750px;
+    width: 120px;
+    height: 30px;
+    font-family: Roboto;
+    border-radius: 12px;
+}
 
