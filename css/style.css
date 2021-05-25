@@ -3,6 +3,13 @@
     width: 338px;
     height: 94px;
     left: 1000px;
+    background: #C91111;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-size: 36px;
+    color: white;
 }
 
 #pieteiktViziti {
@@ -10,7 +17,14 @@
     width: 338px;
     height: 94px;
     left: 1000px;
-    bottom: 430px;
+    bottom: 410px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Roboto;
+    background: #DE8706;
+    font-size: 36px;
+    color: white;
 }
 
 #mekletViziti {
@@ -18,6 +32,22 @@
     width: 338px;
     height: 94px;
     left: 1000px;
-    bottom: 327px;
+    bottom: 310px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-size: 36px;
+    color: white;
+    background: #CEDD1E;
 }
 
+#meklet {
+    position: absolute;
+    width: 279px;
+    height: 25px;
+    left: 254px;
+    top: 38px;
+    border-radius: 12px;
+    outline: none;
+}
