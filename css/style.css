@@ -57,7 +57,7 @@
     outline: none;
     background:#E4DCDC;
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 16px;
     top: 8%;
     background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
 }
@@ -68,26 +68,15 @@
     align-items:center;
 }
 
-#topButton1 {
+#topButtons {
+    position: relative;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
-#topButton2 {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+#mekletArstu2 {
+
 }
 
-#pieteiktViziti2 {
-    display:flex;
-    top: 20px;
-}
-
-#topButton3 {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
 
