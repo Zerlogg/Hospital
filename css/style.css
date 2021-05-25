@@ -1,4 +1,5 @@
 #mekletArstu {
+    display: flex;
     position: absolute;
     width: 40%;
     height: 20%;
@@ -16,6 +17,7 @@
 }
 
 #pieteiktViziti {
+    display: flex;
     position: absolute;
     width: 40%;
     height: 20%;
@@ -33,6 +35,7 @@
 }
 
 #mekletViziti {
+    display: flex;
     position: absolute;
     width: 40%;
     height: 20%;
