@@ -1,9 +1,8 @@
 #mekletArstu {
-    display: flex;
     position: absolute;
     width: 40%;
     height: 20%;
-    left: 1000px;
+    left: 52.5%;
     bottom:-10px;
     background: #C91111;
     border: 1px solid #000000;
@@ -17,11 +16,10 @@
 }
 
 #pieteiktViziti {
-    display: flex;
     position: absolute;
     width: 40%;
     height: 20%;
-    left: 1000px;
+    left: 52.5%;
     bottom: 390px;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -35,11 +33,10 @@
 }
 
 #mekletViziti {
-    display: flex;
     position: absolute;
     width: 40%;
     height: 20%;
-    left: 1000px;
+    left: 52.5%;
     bottom: 190px;
     border: 1px solid #000000;
     box-sizing: border-box;
