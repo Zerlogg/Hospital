@@ -1,53 +1,93 @@
 #mekletArstu {
     position: absolute;
-    width: 338px;
-    height: 94px;
+    width: 40%;
+    height: 20%;
     left: 1000px;
+    bottom:-10px;
     background: #C91111;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 6px;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 50px;
     color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #pieteiktViziti {
     position: absolute;
-    width: 338px;
-    height: 94px;
+    width: 40%;
+    height: 20%;
     left: 1000px;
-    bottom: 410px;
+    bottom: 390px;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 6px;
     font-family: Roboto;
     background: #DE8706;
-    font-size: 36px;
+    font-size: 50px;
     color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #mekletViziti {
     position: absolute;
-    width: 338px;
-    height: 94px;
+    width: 40%;
+    height: 20%;
     left: 1000px;
-    bottom: 310px;
+    bottom: 190px;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 6px;
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 50px;
     color: white;
     background: #CEDD1E;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #meklet {
     position: absolute;
-    width: 279px;
-    height: 25px;
-    left: 254px;
-    top: 38px;
+    width: 20%;
+    height: 3%;
     border-radius: 12px;
     outline: none;
+    background:#E4DCDC;
+    font-family: Roboto;
+    font-size: 12px;
+    top: 8%;
+    background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
 }
+
+#meklesana {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#topButton1 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#topButton2 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#pieteiktViziti2 {
+    display:flex;
+    top: 20px;
+}
+
+#topButton3 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
