@@ -16,6 +16,7 @@
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    box-sizing: border-box;
 }
 
 #pieteiktViziti {
