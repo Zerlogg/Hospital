@@ -3,13 +3,13 @@
     width: 40%;
     height: 20%;
     left: 52.5%;
-    bottom:-1.2%;
-    background: #C91111;
+    bottom: 130px;
+    background: #D43D3D;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 6px;
     font-family: Roboto;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -20,13 +20,13 @@
     width: 40%;
     height: 20%;
     left: 52.5%;
-    bottom: 40.2%;
+    bottom: 530px;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 6px;
     font-family: Roboto;
     background: #DE8706;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -37,12 +37,12 @@
     width: 40%;
     height: 20%;
     left: 52.5%;
-    bottom: 19.5%;
+    bottom: 330px;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 6px;
     font-family: Roboto;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     background: #CEDD1E;
     -webkit-text-stroke-width: 1px;
@@ -50,14 +50,14 @@
 }
 
 #meklet {
-    position: absolute;
-    width: 20%;
+    position: fixed;
+    width: 25%;
     height: 3%;
-    border-radius: 12px;
+    border: 1px solid black;
     outline: none;
     background:#E4DCDC;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 20px;
     top: 8%;
     background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
 }
@@ -76,28 +76,92 @@
 
 #mekletArstu2 {
     position: fixed;
-    left: 750px;
-    width: 120px;
-    height: 30px;
+    left: 717px;
+    width: 140px;
+    height: 35px;
     font-family: Roboto;
     border-radius: 12px;
+    border: 1px solid black;
+    font-size: 20px;
 }
 
 #pieteiktViziti2 {
     position: fixed;
-    left: 900px;
-    width: 120px;
-    height: 30px;
+    left: 891px;
+    width: 140px;
+    height: 35px;
     font-family: Roboto;
     border-radius: 12px;
+    border: 1px solid black;
+    font-size: 20px;
 }
 
 #mekletViziti2 {
     position: fixed;
-    right: 750px;
-    width: 120px;
-    height: 30px;
+    right: 717px;
+    width: 140px;
+    height: 35px;
     font-family: Roboto;
     border-radius: 12px;
+    border: 1px solid black;
+    font-size: 20px;
 }
 
+#ieietPortala {
+    position: fixed;
+    width: 140px;
+    height: 35px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-family: Roboto;
+    font-size: 20px;
+    right: 30px;
+    top: 175px;
+}
+
+#virsraksts {
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+#mainPhoto {
+    position: fixed;
+    width: 1900px;
+    left: 28px;
+}
+
+#fotografija {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#login {
+    position: fixed;
+    width: 15%;
+    height: 3%;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Roboto;
+    font-size: 16px;
+    top: 8%;
+    right: 30px;
+    font-size: 20px;
+}
+
+#parole {
+    position: fixed;
+    width: 15%;
+    height: 3%;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Roboto;
+    font-size: 16px;
+    top: 13%;
+    right: 30px;
+    font-size: 20px;
+}
