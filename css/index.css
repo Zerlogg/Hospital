@@ -1,8 +1,9 @@
 body{
-    width: 90%;
+    width:1920px;
+    height:100%;
 }
 
-#mekletArstu {
+#mekletArstu{
     position: fixed;
     width: 35%;
     height: 20%;
