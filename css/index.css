@@ -1,14 +1,13 @@
 body{
-    width:1920px;
-    height:100%;
+    width: 100%;
 }
 
 #mekletArstu{
     position: fixed;
-    width: 35%;
+    width: 40%;
     height: 20%;
-    left: 64.5%;
-    bottom: 1%;
+    left: 52.5%;
+    bottom: 13%;
     background: #D43D3D;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -72,52 +71,48 @@ body{
 }
 
 #meklesana {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#top {
+    
+}
+    
+
 #topButtons {
-    position: fixed;
-    right: 815px;
-    top: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 #mekletArstu2 {
-    position: fixed;
-    left: 717px;
+    border-radius: 6px;
+    border: 1px solid black;
     width: 140px;
     height: 35px;
-    font-family: Sans-serif;
-    border-radius: 12px;
-    border: 1px solid black;
     font-size: 20px;
 }
 
 #pieteiktViziti2 {
-    position: fixed;
-    left: 891px;
+    border-radius: 6px;
+    border: 1px solid black;
     width: 140px;
     height: 35px;
-    font-family: Sans-serif;
-    border-radius: 12px;
-    border: 1px solid black;
     font-size: 20px;
 }
 
 #mekletViziti2 {
-    position: fixed;
-    right: 717px;
+    border-radius: 6px;
+    border: 1px solid black;
     width: 140px;
     height: 35px;
-    font-family: Sans-serif;
-    border-radius: 12px;
-    border: 1px solid black;
     font-size: 20px;
 }
 
 #ieietPortala {
-    position: fixed;
+    position: absolute;
     width: 140px;
     height: 35px;
     border-radius: 12px;
@@ -196,4 +191,10 @@ h2 {
     color: #C92121;
     font-family: Sans-serif;
     font-size: 16px;
+}
+
+#bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
