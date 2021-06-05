@@ -1,58 +1,55 @@
 body{
-    width: 100%;
+    font-family: sans-serif;
 }
 
-#mekletArstu{
+#bottom {
     position: fixed;
-    width: 40%;
-    height: 20%;
-    left: 52.5%;
-    bottom: 13%;
-    background: #D43D3D;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family: Sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 42px;
+    left: 1200px;
+    top: 500px;
+}
+
+#mekletArstu {
+    position: fixed;
+    width: 900px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid black;
     font-size: 60px;
+    left: 1000px;
+    top: 240px;
     color: white;
+    background-color: #D43D3D;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    box-sizing: border-box;
 }
 
 #pieteiktViziti {
-    position: absolute;
-    width: 40%;
-    height: 20%;
-    left: 52.5%;
-    bottom: 530px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family: Sans-serif;
-    background: #DE8706;
+    position: fixed;
+    width: 900px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid black;
     font-size: 60px;
+    left: 1000px;
+    top: 447px;
     color: white;
+    background-color: #DE8706;
+    font-family: sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
 #mekletViziti {
-    position: absolute;
-    width: 40%;
-    height: 20%;
-    left: 52.5%;
-    bottom: 330px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family: Sans-serif;
+    position: fixed;
+    width: 900px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid black;
     font-size: 60px;
+    left: 1000px;
+    top: 654px;
     color: white;
-    background: #CEDD1E;
+    background-color: #CEDD1E;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
@@ -77,13 +74,14 @@ body{
 }
 
 #top {
+
 }
     
 
 #topButtons {
-    position: fixed;
-    left: 40%;
-    top: 15%
+    position: absolute;
+    left: 600px;
+    top: 80px;
 }
 
 #mekletArstu2 {
@@ -92,6 +90,7 @@ body{
     width: 140px;
     height: 35px;
     font-size: 20px;
+    
 }
 
 #pieteiktViziti2 {
@@ -100,6 +99,7 @@ body{
     width: 140px;
     height: 35px;
     font-size: 20px;
+    
 }
 
 #mekletViziti2 {
@@ -108,10 +108,10 @@ body{
     width: 140px;
     height: 35px;
     font-size: 20px;
+    
 }
 
 #ieietPortala {
-    position: absolute;
     width: 140px;
     height: 35px;
     border-radius: 12px;
@@ -192,5 +192,8 @@ h2 {
     font-size: 16px;
 }
 
-#bottom {
+.intro {
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
 }
