@@ -1,60 +1,25 @@
 body{
     width: 100%;
+    font-family: sans-serif;
+}
+
+#bottom {
+    position: fixed;
+    max-width:100%;
+    left: 1200px;
+    top: 500px;
+    padding: 15px;
 }
 
 #mekletArstu {
-    position: absolute;
-    width: 40%;
-    height: 20%;
-    left: 52.5%;
-    bottom: 13%;
-    background: #D43D3D;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family: Sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 42px;
-    font-size: 60px;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    box-sizing: border-box;
 }
 
 #pieteiktViziti {
-    position: absolute;
-    width: 40%;
-    height: 20%;
-    left: 52.5%;
-    bottom: 530px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family: Sans-serif;
-    background: #DE8706;
-    font-size: 60px;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+
 }
 
 #mekletViziti {
-    position: absolute;
-    width: 40%;
-    height: 20%;
-    left: 52.5%;
-    bottom: 330px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-family: Sans-serif;
-    font-size: 60px;
-    color: white;
-    background: #CEDD1E;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+
 }
 
 #meklet {
@@ -81,9 +46,9 @@ body{
     
 
 #topButtons {
-    position: fixed;
-    left: 40%;
-    top: 15%
+    position: absolute;
+    left: 600px;
+    top: 80px;
 }
 
 #mekletArstu2 {
@@ -92,6 +57,7 @@ body{
     width: 140px;
     height: 35px;
     font-size: 20px;
+    
 }
 
 #pieteiktViziti2 {
@@ -100,6 +66,7 @@ body{
     width: 140px;
     height: 35px;
     font-size: 20px;
+    
 }
 
 #mekletViziti2 {
@@ -108,10 +75,10 @@ body{
     width: 140px;
     height: 35px;
     font-size: 20px;
+    
 }
 
 #ieietPortala {
-    position: absolute;
     width: 140px;
     height: 35px;
     border-radius: 12px;
@@ -192,5 +159,3 @@ h2 {
     font-size: 16px;
 }
 
-#bottom {
-}
