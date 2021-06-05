@@ -55,65 +55,75 @@ body{
 }
 
 #meklet {
-    position: fixed;
-    width: 25%;
-    height: 3%;
+    position: absolute;
+    width: 500px;
+    height: 25px;
     border: 1px solid black;
     outline: none;
     background:#E4DCDC;
     font-family: Sans-serif;
     font-size: 20px;
+    left: 150px;
     top: 8%;
     background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
 }
 
 #meklesana {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    left: 600px;
+    top: 80px;
 }
 
 #topButtons {
-    position: absolute;
+    position: fixed;
     left: 600px;
     top: 80px;
 }
 
 #mekletArstu2 {
-    border-radius: 12px;
+    position: fixed;
+    border-radius: 20px;
     border: 1px solid black;
     width: 140px;
     height: 35px;
     font-size: 20px;
+    top: 135px;
+    left: 750px;
     
 }
 
 #pieteiktViziti2 {
-    border-radius: 12px;
+    position: fixed;
+    border-radius: 20px;
     border: 1px solid black;
     width: 140px;
     height: 35px;
     font-size: 20px;
+    top: 135px;
+    left: 1120px;
     
 }
 
 #mekletViziti2 {
-    border-radius: 12px;
+    position: fixed;
+    border-radius: 20px;
     border: 1px solid black;
     width: 140px;
     height: 35px;
     font-size: 20px;
-    
+    top: 135px;
+    left: 935px
 }
 
 #ieietPortala {
+    position: fixed;
     width: 140px;
     height: 35px;
-    border-radius: 12px;
+    border-radius: 20px;
     border: 1px solid black;
     font-family: Sans-serif;
     font-size: 20px;
-    right: 30px;
+    left: 1765px;
     top: 175px;
 }
 
@@ -137,30 +147,30 @@ body{
 }
 
 #login {
-    position: fixed;
-    width: 15%;
-    height: 3%;
+    position: absolute;
+    width: 300px;
+    height: 25px;
     border: 1px solid black;
     outline: none;
     background: white;
     font-family: Sans-serif;
     font-size: 16px;
     top: 8%;
-    right: 30px;
+    left: 1000px;
     font-size: 20px;
 }
 
 #parole {
-    position: fixed;
-    width: 15%;
-    height: 3%;
+    position: absolute;
+    width: 300px;
+    height: 25px;
     border: 1px solid black;
     outline: none;
     background: white;
     font-family: Sans-serif;
     font-size: 16px;
-    top: 13%;
-    right: 30px;
+    top: 50px;
+    left: 1000px;
     font-size: 20px;
 }
 
