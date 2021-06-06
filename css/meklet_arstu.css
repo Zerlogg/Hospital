@@ -100,3 +100,19 @@ body {
     top: 70px;
     font-size: 20px;
 }
+
+#vertical1 {
+    position: fixed;
+    transform: rotate(90deg);
+    width: 750px;
+    left: 550px;
+    top: 597px;
+}
+
+#vertical2 {
+    position: fixed;
+    transform: rotate(90deg);
+    width: 750px;
+    left: 555px;
+    top: 597px;
+}
