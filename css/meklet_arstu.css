@@ -1,6 +1,6 @@
 .intro {
     width: 100%;
-    max-width: 100%;
+    max-width: 1920px;
 }
 
 body {
@@ -51,13 +51,13 @@ body {
 }
 
 #ieietPortala {
-    position: absolute;
+    position: fixed;
     border: 1px solid black;
     width: 140px;
     height: 35px;
     border-radius: 20px;
-    left: 1050px;
-    top: 15px;
+    left: 1760px;
+    top: 170px;
 }
 
 #meklesana {
@@ -67,17 +67,36 @@ body {
 }
 
 #meklet {
-    position: absolute;
+    position: fixed;
     width: 500px;
     height: 25px;
     border: 1px solid black;
     outline: none;
     font-size: 20px;
-    left: -30px;
-    top: 8%;
+    left: 570px;
+    top: 70px;
     background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
+    background-color: white;
 }
 
 #login {
-    
+    position: fixed;
+    left: 1600px;
+    width: 300px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    top: 120px;
+    font-size: 20px;
+}
+
+#parole {
+    position: fixed;
+    left: 1600px;
+    width: 300px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    top: 70px;
+    font-size: 20px;
 }
