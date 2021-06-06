@@ -30,6 +30,7 @@ body {
     width: 140px;
     height: 35px;
     border-radius: 20px;
+    font-size: 20px;
 }
 
 #pieteiktViziti {
@@ -39,6 +40,7 @@ body {
     height: 35px;
     border-radius: 20px;
     left: 50px;
+    font-size: 20px;
 }
 
 #mekletViziti {
@@ -48,6 +50,7 @@ body {
     height: 35px;
     border-radius: 20px;
     left: 200px;
+    font-size: 20px;
 }
 
 #ieietPortala {
@@ -58,6 +61,7 @@ body {
     border-radius: 20px;
     left: 1760px;
     top: 170px;
+    font-size: 20px;
 }
 
 #meklesana {
@@ -115,4 +119,51 @@ body {
     width: 750px;
     left: 555px;
     top: 597px;
+}
+
+#horizontal {
+    margin-top: -5px
+}
+
+#mekletKonteiners {
+    position: fixed;
+    left: 30px;
+    top: 800px;
+}
+
+#mekletInput {
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+#fields {
+    position: fixed;
+    left: 30px;
+}
+
+#hospital {
+    position: fixed;
+    top: 300px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px
+}
+
+#doctor {
+    position: fixed;
+    top: 500px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px
+}
+
+#time {
+    position: fixed;
+    top: 700px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px
 }
