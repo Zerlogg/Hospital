@@ -1,0 +1,191 @@
+body{
+    font-family: sans-serif;
+}
+
+#bottom {
+    position: fixed;
+    left: 1200px;
+    top: 500px;
+}
+
+#mekletArstu {
+    position: fixed;
+    width: 900px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 60px;
+    left: 1000px;
+    top: 240px;
+    color: white;
+    background-color: #D43D3D;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#pieteiktViziti {
+    position: fixed;
+    width: 900px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 60px;
+    left: 1000px;
+    top: 447px;
+    color: white;
+    background-color: #DE8706;
+    font-family: sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#mekletViziti {
+    position: fixed;
+    width: 900px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 60px;
+    left: 1000px;
+    top: 654px;
+    color: white;
+    background-color: #CEDD1E;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#meklet {
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    background:#E4DCDC;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 150px;
+    top: 8%;
+    background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
+}
+
+#meklesana {
+    position: fixed;
+    left: 600px;
+    top: 80px;
+}
+
+#topButtons {
+    position: fixed;
+    left: 600px;
+    top: 80px;
+}
+
+#mekletArstu2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 750px;
+    
+}
+
+#pieteiktViziti2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 1120px;
+    
+}
+
+#mekletViziti2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 935px
+}
+
+#ieietPortala {
+    position: fixed;
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 1715px;
+    top: 135px;
+}
+
+#virsraksts {
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    font-family: Sans-serif;
+    font-size: 24px;
+}
+
+#mainPhoto {
+    position: fixed;
+    width: 1900px;
+    left: 28px;
+}
+
+#fotografija {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#login {
+    position: absolute;
+    width: 300px;
+    height: 29px;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 20px;
+    top: 8%;
+    left: 1000px;
+    font-size: 20px;
+}
+
+
+h2 {
+    position	: absolute;
+	top		: 0;
+	left		: 250px;
+	width		: 100%;
+    color: #af0202;
+    font-size: 20px;
+    font-family: Sans-serif;
+}
+
+#lasitVairak {
+    position: absolute;
+	top: 100px;
+	left: 250px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #C92121;
+    color: #C92121;
+    font-family: Sans-serif;
+    font-size: 16px;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+}
