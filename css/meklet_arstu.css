@@ -167,3 +167,51 @@ body {
     height: 30px;
     font-size: 20px
 }
+
+#pecSlimnicas {
+    position: fixed;
+    top: 255px;
+    font-size: 20px;
+}
+
+#darbibasJoma {
+    position: fixed;
+    top: 455px;
+    font-size: 20px;
+}
+
+#darbaLaiks {
+    position: fixed;
+    top: 655px;
+    font-size: 20px;
+}
+
+#arsts {
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+}
+
+#arstaLaiks {
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+}
+
+#slimnica {
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+}
+
+#arstaJoma {
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+}
+
+#output {
+    position: fixed;
+    left: 1000px;
+    
+}
