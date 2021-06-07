@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pieteiktviziti.css">
+    <title>Slimnīca</title>
+</head>
+<body>
+
+    <div id='top_background'></div>
+
+    <div id='intro'>
+        <img id='logo' src="https://cdn.discordapp.com/attachments/758385365912125571/844201918242357268/unknown.png" alt="logo" />
+        <div id='virsraksts'>
+            <h1>Projekts <br> "Medicīna"</h1>
+            <div id ='topButtons'>
+                <button id='mekletArstu2'>Meklēt ārstu</button>
+                <button id='pieteiktViziti2'>Pieteikt vizīti</button>
+                <button id='mekletViziti2'>Meklēt vizīti</button>
+                <button id='ieietPortala'>Ieiet portālā</button>
+                    
+            </div>
+            <form id='meklesana'>
+                <input type="text" id="meklet" placeholder="Meklēt...">
+                <input type="text" id="login" placeholder="Lietotātjvārds...">
+                <input type="text" id="parole" placeholder="Parole...">
+                <input type="text" id="vards_uzvards_ievade">
+                <input type="text" id="darba_laiks_ievade">
+                <input type="text" id="darbibas_joma_ievade">
+                <input type="text" id="slimnica_ievade">
+            </form> 
+
+            <div id='vards_uzvards_teksts'>
+                <p>Vārds, uzvārds:</p>
+            </div>
+            <div id='darba_laiks_teksts'>
+                <p>Personas kods:</p>
+            </div>
+            <div id='darbibas_joma_teksts'>
+                <p>E-pasts:</p>
+            </div>
+            <div id='slimnica_teksts'>
+                <p>Tālruņa numurs:</p>
+            </div>
+
+            <button id='pievienot_poga'>Pieteikt</button>
+
+        </div>
+
+
+        <div id='hr'>
+            <hr>
+        </div>
+
+        <div id='time_teksts'>
+            <p>Jūsu ārsts:</p>
+        </div>
+
+        <select id='time'>
+            <option></option>
+            <option>O</option>
+            <option>T</option>
+            <option>C</option>
+            <option>d</option>
+            <option>a</option>
+            <option>S</option>
+        </select>
+
+        <div id='vizit_teksts'>
+            <p>Vizītes laiks:</p>
+        </div>
+
+        <select id='vizit'>
+            <option></option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+        </select>       
+        
+        <div id='pacienta_vards_uzvards_lauks'></div>
+        <div id='pacienta_vards_uzvards_teksts'>
+            <p>Vizītes numurs</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
