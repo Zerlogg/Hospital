@@ -1,0 +1,172 @@
+body{
+    font-family: sans-serif;
+}
+
+#logo {
+    position: fixed;
+    top: 10px;
+}
+
+#meklet {
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 150px;
+    top: 8%;
+    background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
+    background-color:#ffffff;
+}
+
+#meklesana {
+    position: fixed;
+    left: 600px;
+    top: 80px;
+}
+
+#topButtons {
+    position: fixed;
+    left: 600px;
+    top: 80px;
+}
+
+#mekletArstu2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 750px;
+    
+}
+
+#pieteiktViziti2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 1120px;
+    
+}
+
+#mekletViziti2 {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 935px
+}
+
+#ieietPortala {
+    position: fixed;
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 1715px;
+    top: 135px;
+}
+
+#virsraksts {
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    font-family: Sans-serif;
+    font-size: 24px;
+}
+
+#login {
+    position: absolute;
+    width: 300px;
+    height: 29px;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 20px;
+    top: 8%;
+    left: 1000px;
+    font-size: 20px;
+}
+
+
+h2 {
+    position: absolute;
+	top	: 0;
+	left: 250px;
+	width: 100%;
+    color: #af0202;
+    font-size: 20px;
+    font-family: Sans-serif;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+}
+
+#top_background {
+    right: 50px;
+    background-color: #CEDD1E;
+    width: 100%;
+    height: 210px;
+}
+
+#eksportet_datus {
+    position: fixed;
+    left: 45px;
+    top: 230px;
+    font-size: 26px;
+}
+
+#hr2 {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 310px;
+}
+
+#hr3 {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 320px;
+}
+
+#eksportet_csv_poga {
+    position: fixed;
+    width: 75px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 235px;
+    top: 257px;
+}
+
+#eksportet_json_poga{
+    position: fixed;
+    width: 85px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 330px;
+    top: 257px;
+}
