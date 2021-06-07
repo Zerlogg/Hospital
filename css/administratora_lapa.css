@@ -123,8 +123,8 @@ body{
     border: 1px solid black;
     font-family: Sans-serif;
     font-size: 20px;
-    left: 1730px;
-    top: 175px;
+    left: 1715px;
+    top: 135px;
 }
 
 #virsraksts {
@@ -149,12 +149,12 @@ body{
 #login {
     position: absolute;
     width: 300px;
-    height: 25px;
+    height: 29px;
     border: 1px solid black;
     outline: none;
     background: white;
     font-family: Sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     top: 8%;
     left: 1000px;
     font-size: 20px;
