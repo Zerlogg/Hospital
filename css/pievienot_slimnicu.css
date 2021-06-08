@@ -12,9 +12,9 @@ body {
 
 #name {
     position: absolute;
-    left: 250px;
-    top: 50px;
-    font-size: 60px;
+    left: 300px;
+    top: 20px;
+    font-size: 50px;
 }
 
 #topButtons {
@@ -104,4 +104,59 @@ body {
     top: 80px;
     left: 1600px;
     font-size: 20px;
+}
+
+#nosaukums {
+    position: fixed;
+    font-size: 26px;
+    top: 240px;
+    left: 50px;
+}
+
+#adrese {
+    position: fixed;
+    font-size: 26px;
+    top: 240px;
+    left: 480px;
+}
+
+#nosaukums2 {
+    position: fixed;
+    width: 300px;
+    height: 25px;
+    outline: none;
+    left: 50px;
+    top: 300px;
+}
+
+#adrese2 {
+    position: fixed;
+    width: 300px;
+    height: 25px;
+    outline: none;
+    left: 900px;
+    top: 300px;
+    left: 480px;
+}
+
+#pievienot {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    top: 297px;
+    left: 850px;
+}
+
+#fields {
+}
+
+#linijas {
+    margin-top: 120px;
+}
+
+#second {
+    margin-top: -5px;
 }
