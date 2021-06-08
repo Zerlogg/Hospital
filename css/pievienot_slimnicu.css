@@ -1,0 +1,107 @@
+.intro {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #D43D3D;
+}
+
+#name {
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    font-size: 60px;
+}
+
+#topButtons {
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+
+#meklesana {
+    position: absolute;
+    left: 600px;
+    top: 100px
+}
+
+#meklet {
+    position: fixed;
+    width: 500px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    left: 750px;
+    top: 80px;
+    background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
+    background-color: white;
+}
+
+#horizontal {
+    margin-top: -5px
+}
+
+#pievienotSlimnicu {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 750px;
+}
+
+#pievienotArstu {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 935px
+}
+
+#statistika {
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    top: 135px;
+    left: 1120px;
+}
+
+#izietNoPortala {
+    position: fixed;
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 1715px;
+    top: 135px;
+
+}
+
+#login {
+    position: fixed;
+    width: 300px;
+    height: 29px;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 20px;
+    top: 80px;
+    left: 1600px;
+    font-size: 20px;
+}
