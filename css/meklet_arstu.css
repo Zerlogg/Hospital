@@ -217,8 +217,58 @@ body {
     
 }
 
+#arsts2{
+    position: fixed;
+    top: 250px;
+}
+
 #arsts3 {
+    position: fixed;
     border: 1px solid black;
     height: 30px;
     width: 500px;
+    top: 295px;
+    background-color: #E4DCDC;
+}
+
+#darbaLaiks2 {
+    position: fixed;
+    top: 450px;
+}
+
+#darbaLaiks3 {
+    position: fixed;
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+    top: 495px;
+    background-color: #E4DCDC;
+}
+
+#slimnica2 {
+    position: fixed;
+    top: 650px;
+}
+
+#slimnica3 {
+    position: fixed;
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+    top: 695px;
+    background-color: #E4DCDC;
+}
+
+#darbaJoma {
+    position: fixed;
+    top: 850px;
+}
+
+#darbaJoma2 {
+    position: fixed;
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+    top: 895px;
+    background-color: #E4DCDC;
 }
