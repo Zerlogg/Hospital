@@ -13,8 +13,9 @@ body {
 
 #name {
     position: absolute;
-    left: 250px;
-    top: 50px;
+    left: 300px;
+    top: 20px;
+    font-size: 48px;
 }
 
 #topButtons {
@@ -24,44 +25,48 @@ body {
 }
 
 #mekletArstu {
-    position: absolute;
-    left: -100px;
+    position: fixed;
+    border-radius: 20px;
     border: 1px solid black;
     width: 140px;
     height: 35px;
-    border-radius: 20px;
     font-size: 20px;
+    top: 135px;
+    left: 750px;
 }
 
 #pieteiktViziti {
-    position: absolute;
+    position: fixed;
+    border-radius: 20px;
     border: 1px solid black;
     width: 140px;
     height: 35px;
-    border-radius: 20px;
-    left: 50px;
     font-size: 20px;
+    top: 135px;
+    left: 1120px;
 }
 
 #mekletViziti {
-    position: absolute;
+    position: fixed;
+    border-radius: 20px;
     border: 1px solid black;
     width: 140px;
     height: 35px;
-    border-radius: 20px;
-    left: 200px;
     font-size: 20px;
+    top: 135px;
+    left: 935px
 }
 
 #ieietPortala {
     position: fixed;
-    border: 1px solid black;
     width: 140px;
     height: 35px;
     border-radius: 20px;
-    left: 1760px;
-    top: 170px;
+    border: 1px solid black;
+    font-family: Sans-serif;
     font-size: 20px;
+    left: 1765px;
+    top: 175px;
 }
 
 #meklesana {
@@ -71,37 +76,44 @@ body {
 }
 
 #meklet {
-    position: fixed;
+    position: absolute;
     width: 500px;
     height: 25px;
     border: 1px solid black;
     outline: none;
+    font-family: Sans-serif;
     font-size: 20px;
-    left: 570px;
-    top: 70px;
+    left: 150px;
+    top: -20px;
     background: url(https://cdn.discordapp.com/attachments/758385365912125571/846713481847504936/unknown.png) no-repeat 98% 1px;
-    background-color: white;
+    background-color:#ffffff;
 }
 
 #login {
-    position: fixed;
-    left: 1600px;
+    position: absolute;
     width: 300px;
     height: 25px;
     border: 1px solid black;
     outline: none;
-    top: 120px;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 16px;
+    top: -20px;
+    left: 1000px;
     font-size: 20px;
 }
 
 #parole {
-    position: fixed;
-    left: 1600px;
+    position: absolute;
     width: 300px;
     height: 25px;
     border: 1px solid black;
     outline: none;
-    top: 70px;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 16px;
+    top: 30px;
+    left: 1000px;
     font-size: 20px;
 }
 
@@ -128,7 +140,7 @@ body {
 #mekletKonteiners {
     position: fixed;
     left: 30px;
-    top: 800px;
+    top: 820px;
 }
 
 #mekletInput {
@@ -136,7 +148,7 @@ body {
     height: 35px;
     border-radius: 20px;
     border: 1px solid black;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #fields {
@@ -148,7 +160,7 @@ body {
     position: fixed;
     top: 300px;
     width: 500px;
-    height: 30px;
+    height: 34px;
     font-size: 20px
 }
 
@@ -156,7 +168,7 @@ body {
     position: fixed;
     top: 500px;
     width: 500px;
-    height: 30px;
+    height: 34px;
     font-size: 20px
 }
 
@@ -164,26 +176,26 @@ body {
     position: fixed;
     top: 700px;
     width: 500px;
-    height: 30px;
+    height: 34px;
     font-size: 20px
 }
 
 #pecSlimnicas {
     position: fixed;
-    top: 255px;
-    font-size: 20px;
+    top: 235px;
+    font-size: 30px;
 }
 
 #darbibasJoma {
     position: fixed;
-    top: 455px;
-    font-size: 20px;
+    top: 435px;
+    font-size: 30px;
 }
 
 #darbaLaiks {
     position: fixed;
-    top: 655px;
-    font-size: 20px;
+    top: 635px;
+    font-size: 30px;
 }
 
 #arsts {
@@ -213,13 +225,13 @@ body {
 #output {
     position: fixed;
     left: 1000px;
-    font-size: 20px;
+    font-size: 30px;
     
 }
 
 #arsts2{
     position: fixed;
-    top: 250px;
+    top: 230px;
 }
 
 #arsts3 {
@@ -233,7 +245,7 @@ body {
 
 #darbaLaiks2 {
     position: fixed;
-    top: 450px;
+    top: 430px;
 }
 
 #darbaLaiks3 {
@@ -247,7 +259,7 @@ body {
 
 #slimnica2 {
     position: fixed;
-    top: 650px;
+    top: 630px;
 }
 
 #slimnica3 {
@@ -261,7 +273,7 @@ body {
 
 #darbaJoma {
     position: fixed;
-    top: 850px;
+    top: 830px;
 }
 
 #darbaJoma2 {

@@ -183,7 +183,7 @@ h2 {
 #vards_uzvards_ievade {
     position: absolute;
     width: 600px;
-    height: 25px;
+    height: 30px;
     border: 1px solid black;
     outline: none;
     font-family: Sans-serif;
@@ -196,7 +196,7 @@ h2 {
 #darba_laiks_ievade {
     position: absolute;
     width: 600px;
-    height: 25px;
+    height: 30px;
     border: 1px solid black;
     outline: none;
     font-family: Sans-serif;
@@ -209,7 +209,7 @@ h2 {
 #darbibas_joma_ievade {
     position: absolute;
     width: 600px;
-    height: 25px;
+    height: 30px;
     border: 1px solid black;
     outline: none;
     font-family: Sans-serif;
@@ -222,7 +222,7 @@ h2 {
 #slimnica_ievade {
     position: absolute;
     width: 600px;
-    height: 25px;
+    height: 30px;
     border: 1px solid black;
     outline: none;
     font-family: Sans-serif;
@@ -263,7 +263,7 @@ h2 {
 #time {
     position: absolute;
     width: 600px;
-    height: 29px;
+    height: 34px;
     border: 1px solid black;
     outline: none;
     font-family: Sans-serif;
@@ -283,7 +283,7 @@ h2 {
 #vizit {
     position: absolute;
     width: 600px;
-    height: 29px;
+    height: 34px;
     border: 1px solid black;
     outline: none;
     font-family: Sans-serif;
@@ -305,7 +305,7 @@ h2 {
     top: 870px;
     left: 950px;
     width: 600px;
-    height: 26px;
+    height: 30px;
     background: #E4DCDC;
     border: 1px solid black;
 }

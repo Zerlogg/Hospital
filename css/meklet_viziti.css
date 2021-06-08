@@ -42,7 +42,7 @@ body{
     font-family: Sans-serif;
     font-size: 20px;
     left: 485px;
-    top: 286.5px;
+    top: 288px;
 }
 
 #atcelt_viziti_poga {
@@ -72,7 +72,7 @@ body{
 #vizites_nr {
     position: absolute;
     width: 400px;
-    height: 25px;
+    height: 30px;
     border: 1px solid black;
     outline: none;
     font-family: Sans-serif;
@@ -197,8 +197,8 @@ h2 {
 #vizites_nr_ievade {
     position: fixed;
     left: 50px;
-    top: 240px;
-    font-size: 20px;
+    top: 230px;
+    font-size: 26px;
 }
 
 #hr2 {
@@ -220,7 +220,7 @@ h2 {
     top: 170px;
     left: 152px;
     width: 400px;
-    height: 26px;
+    height: 30px;
     background: #E4DCDC;
     border: 1px solid black;
 }
@@ -230,7 +230,7 @@ h2 {
     top: 330px;
     left: 152px;
     width: 400px;
-    height: 26px;
+    height: 30px;
     background: #E4DCDC;
     border: 1px solid black;
 }
@@ -240,7 +240,7 @@ h2 {
     top: 490px;
     left: 152px;
     width: 400px;
-    height: 26px;
+    height: 30px;
     background: #E4DCDC;
     border: 1px solid black;
 }
@@ -250,7 +250,7 @@ h2 {
     top: 170px;
     left: 750px;
     width: 400px;
-    height: 26px;
+    height: 30px;
     background: #E4DCDC;
     border: 1px solid black;
 }
@@ -260,7 +260,7 @@ h2 {
     top: 330px;
     left: 750px;
     width: 400px;
-    height: 26px;
+    height: 30px;
     background: #E4DCDC;
     border: 1px solid black;
 }
@@ -270,7 +270,7 @@ h2 {
     top: 490px;
     left: 750px;
     width: 400px;
-    height: 26px;
+    height: 30px;
     background: #E4DCDC;
     border: 1px solid black;
 }
@@ -278,41 +278,41 @@ h2 {
 #pacienta_vards_uzvards_teksts {
     position: fixed;
     left: 52px;
-    top: 410px;
-    font-size: 20px;
+    top: 400px;
+    font-size: 26px;
 }
 
 #vizites_numurs_teksts {
     position: fixed;
     left: 52px;
-    top: 570px;
-    font-size: 20px;
+    top: 560px;
+    font-size: 26px;
 }
 
 #slimnica_teksts {
     position: fixed;
     left: 52px;
-    top: 730px;
-    font-size: 20px;
+    top: 720px;
+    font-size: 26px;
 }
 
 #vizites_laiks_teksts {
     position: fixed;
     left: 650px;
-    top: 410px;
-    font-size: 20px;
+    top: 400px;
+    font-size: 26px;
 }
 
 #arsts_teksts {
     position: fixed;
     left: 650px;
-    top: 570px;
-    font-size: 20px;
+    top: 560px;
+    font-size: 26px;
 }
 
 #arsta_darbibas_joma_teksts {
     position: fixed;
     left: 650px;
-    top: 730px;
-    font-size: 20px;
+    top: 720px;
+    font-size: 26px;
 }
