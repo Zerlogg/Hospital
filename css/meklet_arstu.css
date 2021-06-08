@@ -213,5 +213,12 @@ body {
 #output {
     position: fixed;
     left: 1000px;
+    font-size: 20px;
     
+}
+
+#arsts3 {
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
 }
