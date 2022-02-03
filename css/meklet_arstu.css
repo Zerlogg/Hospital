@@ -140,7 +140,7 @@ body {
 #mekletKonteiners {
     position: fixed;
     left: 30px;
-    top: 820px;
+    top: 830px;
 }
 
 #mekletInput {
@@ -188,7 +188,7 @@ body {
 
 #darbibasJoma {
     position: fixed;
-    top: 435px;
+    top: 420px;
     font-size: 30px;
 }
 
@@ -245,7 +245,7 @@ body {
 
 #darbaLaiks2 {
     position: fixed;
-    top: 430px;
+    top: 405px;
 }
 
 #darbaLaiks3 {
@@ -253,13 +253,13 @@ body {
     border: 1px solid black;
     height: 30px;
     width: 500px;
-    top: 495px;
+    top: 470px;
     background-color: #E4DCDC;
 }
 
 #slimnica2 {
     position: fixed;
-    top: 630px;
+    top: 585px;
 }
 
 #slimnica3 {
@@ -267,13 +267,13 @@ body {
     border: 1px solid black;
     height: 30px;
     width: 500px;
-    top: 695px;
+    top: 650px;
     background-color: #E4DCDC;
 }
 
 #darbaJoma {
     position: fixed;
-    top: 830px;
+    top: 765px;
 }
 
 #darbaJoma2 {
@@ -281,6 +281,6 @@ body {
     border: 1px solid black;
     height: 30px;
     width: 500px;
-    top: 895px;
+    top: 830px;
     background-color: #E4DCDC;
 }

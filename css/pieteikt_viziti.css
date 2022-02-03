@@ -37,7 +37,7 @@ body{
     position: fixed;
     border-radius: 20px;
     border: 1px solid black;
-    width: 180px;
+    width: 140px;
     height: 35px;
     font-size: 20px;
     top: 135px;
@@ -61,7 +61,7 @@ body{
     position: fixed;
     border-radius: 20px;
     border: 1px solid black;
-    width: 180px;
+    width: 140px;
     height: 35px;
     font-size: 20px;
     top: 135px;
@@ -302,7 +302,7 @@ h2 {
 
 #pacienta_vards_uzvards_lauks {
     position: absolute;
-    top: 870px;
+    top: 860px;
     left: 950px;
     width: 600px;
     height: 30px;
@@ -313,7 +313,7 @@ h2 {
 #pacienta_vards_uzvards_teksts {
     position: fixed;
     left: 950px;
-    top: 810px;
+    top: 800px;
     font-size: 26px;
 }
     
