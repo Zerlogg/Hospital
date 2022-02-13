@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="lv">
-<head>
+
+{% block head %}
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/administratora_lapa.css">
-    <title>Slimnīca</title>
-</head>
-<body>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/statistika.css') }}">
+    <title>Statistika</title>
+
+{% endblock %}
+
+{% block body %}
+
+    <div id='top_background'></div>
 
     <div id='intro'>
-        <img src="https://cdn.discordapp.com/attachments/758385365912125571/844201918242357268/unknown.png" alt="logo" />
+        <img id='logo' src="https://cdn.discordapp.com/attachments/758385365912125571/844201918242357268/unknown.png" alt="logo" />
         <div id='virsraksts'>
             <h1>Projekts <br> "Medicīna"</h1>
             <div id ='topButtons'>
@@ -33,36 +39,27 @@
                 <input type="text" id="meklet" placeholder="Meklēt...">
             </form> 
 
+            <div id='eksportet_datus'>
+                <p>Ekportēt datus:</p>
+            </div>
+
+            <button id='eksportet_csv_poga'>.csv</button>
+            <button id='eksportet_json_poga'>.json</button>
+
         </div>
 
 
         <div id='hr'>
             <hr>
-            <hr>
         </div>
 
-
-        <div id='mainPhoto'>
-            <img id='fotografija' src="https://media.discordapp.net/attachments/768387809870086194/846705812219101214/Screenshot-2021-02-02-100646_960.png" alt="Hospital" width="50%">
-            <h2 class='vakcinacija'>BĒRNU UN JAUNIEŠU COVID-19 <br> VAKCINĀCIJA IR DROŠA UN <br> ATBALSTĀMA IZVĒLE</h2>
-            <button id='lasitVairak'>
-                <a href="admin_tekst.html">Lasīt vairāk</a>
-            </button>
-            <div id='bottom'>
-                <button id='mekletArstu'>
-                    <a href="pievienot_slimnicu.html">Pievienot slimnīcu</a>
-                </button>
-                <button id='pieteiktViziti'>
-                    <a href="pievienot_arstu.html">Pievienot ārstu</a>
-                </button>
-                <button id='mekletViziti'>
-                    <a href="statistika.html">Statistika</a>
-                </button>
-            </div>
+        <div id='hr'>
+            <hr id='hr2'>
+            <hr id='hr3'>
         </div>
-
 
     </div>
 
-</body>
+{% endblock %}
+
 </html>

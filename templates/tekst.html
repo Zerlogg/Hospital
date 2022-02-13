@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="lv">
-<head>
+
+{% block head %}
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/admin_tekst.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tekst.css') }}">
     <title>Slimnīca</title>
-</head>
-<body>
+
+{% endblock %}
+
+{% block body %}
 
     <div id='intro'>
         <img src="https://cdn.discordapp.com/attachments/758385365912125571/844201918242357268/unknown.png" alt="logo" />
@@ -15,25 +19,25 @@
             <h1>Projekts <br> "Medicīna"</h1>
             <div id ='topButtons'>
                 <button id='mekletArstu2'>
-                    <a href="pievienot_slimnicu.html">Pievienot slimnīcu</a>
+                    <a href="meklet_arstu.html">Meklēt ārstu</a>
                 </button>
                 <button id='pieteiktViziti2'>
-                    <a href="statistika.html">Statistika</a>
+                    <a href="pieteikt_viziti.html">Pieteikt vizīti</a>
                 </button>
                 <button id='mekletViziti2'>
-                    <a href="pievienot_arstu.html">Pievienot ārstu</a>
+                    <a href="meklet_viziti.html">Meklēt vizīti</a>
                 </button>
-                <button id='ieietPortala'>
-                    <a href="index.html">Iziet no portālā</a>
-                </button>
-                <button id='login'>Adminisrātora portāls</button>
+                <button id='ieietPortala'>Ieiet portālā</button>
                     
             </div>
             <form id='meklesana'>
                 <input type="text" id="meklet" placeholder="Meklēt...">
+                <input type="text" id="login" placeholder="Lietotātjvārds...">
+                <input type="text" id="parole" placeholder="Parole...">
             </form> 
 
         </div>
+
 
         <div id='vertical'>
             <hr id='vertical1'>
@@ -45,8 +49,10 @@
             <hr>
         </div>
 
-    </div>
 
+
+
+    </div>
     <p class="dline"><font face="Trebuchet MS" size="5" style="position:absolute;
         left:15px; top:270px">
 
@@ -82,5 +88,6 @@ Kā arī, atbilstoši Pacientu tiesību likumam no 14 gadu vecuma bērns var lem
     </font>
 </p>
 
-</body>
+{% endblock %}
+
 </html>
