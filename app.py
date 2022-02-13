@@ -50,6 +50,10 @@ def statistika():
 def tekst():
     return render_template("tekst.html")
 
+@app.route('/registracija.html')
+def login():
+    return render_template("registracija.html")
+
 
 @app.route('/', methods=['POST', 'GET'])
 def index():

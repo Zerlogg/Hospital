@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% block head %}
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/registracija.css') }}">
+    <title>Reģistrācija</title>
+
+{% endblock %}
+
+{% block body %}
+    
+    
+    <div class="regKont">
+        <form id="forma">
+
+            <h2 id="tituls">Reģistrācijas lapa</h2>
+            <br>
+            <input type="name" id="ievadietLietotajvardu" name="ievadietLietotajvardu" placeholder="Ievadiet lietotājvārdu..."/>   
+            <br>
+            <br>
+            <br>
+            <input type="password" id="ievadietParoli" name="ievadietParoli" placeholder="Ievadiet paroli...">  
+            <br>
+            <br>
+            <br>  
+            <input type="password" id="atkartojietParoli" name="atkartojietParoli" placeholder="Atkārtojiet paroli..."> 
+            <br>
+            <br>
+            <br>  
+            <input type="button" value="Apstiprināt"/>  
+ 
+        </form>
+    </div>
+
+{% endblock %}
+
+</html>
