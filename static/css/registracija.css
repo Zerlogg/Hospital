@@ -5,37 +5,68 @@ body{
 .regKont{
     position: absolute;
     top: 200px;
-    left: 750px;
-    background-color: blanchedalmond;
-    width: 500px;
+    left: 650px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
     height: 500px;
-    outline: 2px dashed gray;
+    outline: 2px groove rgb(146, 139, 139);
+    border-radius: 5px;
 }
 
 #forma {
     position:relative;
-    left: 100px;
+    left: 150px;
     top: 50px;
-    
 }
 
 #ievadietLietotajvardu {
-    width: 300px;
-    height: 25px;
+    position: relative;
+    left: -50px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 #ievadietParoli {
-    width: 300px;
-    height: 25px;
+    position: relative;
+    left: -50px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 #atkartojietParoli {
-    width: 300px;
-    height: 25px;
+    position: relative;
+    left: -50px;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 h2 {
     position: relative;
     left: 45px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Sans-serif;
+}
+
+#tituls {
+    position: relative;
+    font-size: 30px;
+    left: 20px;
+    top: -10px;
+}
+
+#apstiprinat {
+    position: relative;
+    top: 45px;
+    left: -50px;
+    width: 400px;
+    height: 30px;
+    background-color: #D43D3D;
+    outline: 2px groove rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 20px;
 }

@@ -55,7 +55,7 @@ def login():
     return render_template("registracija.html")
 
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/index2.html', methods=['POST', 'GET'])
 def index():
     if request.method == 'POST':
         task_content = request.form['meklet']
@@ -64,7 +64,7 @@ def index():
         try:
             db.session.add(new_task)
             db.session.commit()
-            return redirect('/')
+            return redirect('/index2.html')
         except:
             return 'There was an issue adding your task'
 
