@@ -316,4 +316,15 @@ h2 {
     top: 800px;
     font-size: 26px;
 }
-    
+
+#registracija{
+    position: fixed;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 1600px;
+    top: 175px;
+}
