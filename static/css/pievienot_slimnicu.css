@@ -157,3 +157,20 @@ body {
 #second {
     margin-top: -5px;
 }
+
+.slimnicas {
+    width: 210px;
+    height: 160px;
+    background-color: #D43D3D;
+    border: 3px black solid;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.dzest {
+    position: relative;
+    top: 15px;
+    width: 70px;
+    height: 25px;
+    font-size: 15px;
+}

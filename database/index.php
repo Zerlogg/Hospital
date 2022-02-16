@@ -22,9 +22,9 @@
 
     <p>
     <input type="submit" name="submit" value="Ienākt">
-
+    <a href="http://localhost/database/admin_login.php">Admina lapa</a>
 <br>
-<a href="reg.php">Reģistrēties</a> 
+<a href="reg.php">Reģistrēties</a>
     </p></form>
     <br>
     <?php
