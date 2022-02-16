@@ -1,3 +1,4 @@
+const POP_Up = document.getElementById('popUp');
 let ieraksti = [];
 
 window.addEventListener('load', () => {
@@ -9,7 +10,7 @@ window.addEventListener('load', () => {
 const ieraksts = document.querySelector('#saraksts')
 
 ieraksts.addEventListener('click', (e) => {
-    if(e.target.className == 'dzest'){
+    if(e.target.className == 'delete'){
       const li = e.target.parentElement;
       li.parentNode.removeChild(li);
       ieraksti.splice(li, 1);
@@ -17,28 +18,36 @@ ieraksts.addEventListener('click', (e) => {
     }
 });
 
-    let slimnicas = {nosaukums2: nosaukums2.value, daudzums: daudzums.value};
+document.getElementById('jaunsPirkums').addEventListener('click', () => {
+    POP_Up.style.display = 'block';
+});
+
+document.getElementById('pievienot').addEventListener('click', () => {
+    POP_Up.style.display = 'none';
+
+    let pirkums = {nosaukums2: nosaukums2.value, adrese2: adrese2.value};
 
     nosaukums2.value = "";
-    daudzums.value = "";
+    adrese2.value = "";
 
-    ieraksti.push(slimnicas);
+    ieraksti.push(pirkums);
 
     render();
+ });
 
  function render() {
     let saraksts = document.getElementById('saraksts');
     saraksts.innerHTML = "";
 
     for(let i = 0; i < ieraksti.length; i++) {
-        let slimnicas = `
-        <div class="slimnicas">
-            <h3>Prece: ${ieraksti[i].precesNosaukums}</h3>
-            <h4>Daudzums: ${ieraksti[i].daudzums}</h4>
-            <button class="dzest">Dzēst</button>
-        </div>`;
+        let pirkums = `
+        <div class="pirkums">
+            <p>Prece: ${ieraksti[i].nosaukums2}</p>
+            <p>Daudzums: ${ieraksti[i].adrese2}</p>
+            <button class="delete">Dzēst</button>
+        </div> `
 
-        saraksts.innerHTML += slimnicas;
+        saraksts.innerHTML += pirkums;
     };
 
     localStorage.setItem("ieraksti", JSON.stringify(ieraksti))
