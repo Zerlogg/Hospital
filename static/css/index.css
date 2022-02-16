@@ -8,6 +8,32 @@ body{
     top: 500px;
 }
 
+#iziet {
+    position: fixed;
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 1715px;
+    top: 135px;
+}
+
+#login_lietotajs {
+    position: absolute;
+    width: 250px;
+    height: 29px;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 20px;
+    top: 8%;
+    left: 1045px;
+    font-size: 20px;
+}
+
 #mekletArstu {
     position: fixed;
     width: 900px;
@@ -156,20 +182,6 @@ body{
 #fotografija {
     border-radius: 10px;
     border: 1px solid black;
-}
-
-#login {
-    position: absolute;
-    width: 300px;
-    height: 25px;
-    border: 1px solid black;
-    outline: none;
-    background: white;
-    font-family: Sans-serif;
-    font-size: 16px;
-    top: 8%;
-    left: 1000px;
-    font-size: 20px;
 }
 
 #parole {

@@ -115,7 +115,7 @@ body{
     left: 935px
 }
 
-#ieietPortala {
+#iziet {
     position: fixed;
     width: 180px;
     height: 35px;
@@ -159,7 +159,6 @@ body{
     left: 1000px;
     font-size: 20px;
 }
-
 
 h2 {
     position	: absolute;

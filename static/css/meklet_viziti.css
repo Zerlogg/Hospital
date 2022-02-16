@@ -7,6 +7,32 @@ body{
     top: 10px;
 }
 
+#iziet {
+    position: fixed;
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 1715px;
+    top: 135px;
+}
+
+#login_lietotajs {
+    position: absolute;
+    width: 250px;
+    height: 29px;
+    border: 1px solid black;
+    outline: none;
+    background: white;
+    font-family: Sans-serif;
+    font-size: 20px;
+    top: 8%;
+    left: 1045px;
+    font-size: 20px;
+}
+
 #meklet {
     position: absolute;
     width: 500px;
