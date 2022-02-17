@@ -174,3 +174,16 @@ body {
     height: 25px;
     font-size: 15px;
 }
+
+.gramata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 150px;
+    padding: 15px;
+    margin: 20px;
+    background-color: darkkhaki;
+}
