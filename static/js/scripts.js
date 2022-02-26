@@ -1,42 +1,16 @@
-const POP_UP = document.getElementById('fields');
-let gramatas = [];
+window.onload=function(){
 
-window.addEventListener('load', () => {
-    gramatas = JSON.parse(localStorage.getItem("gramatas") || "[]");
-    console.log(gramatas)
-    render();
-});
+const POP_UP = document.getElementById("popUp");
 
-document.getElementById('pievienot').addEventListener('click', () => {
-    POP_UP.style.display = 'block';
+document.getElementById("jaunaGramata").addEventListener("click", () => {
+
+    POP_UP.style.display = "block"
 })
 
-document.getElementById('pievienotGramatu').addEventListener('click', () => {
-    POP_UP.style.display = 'none';
+document.getElementById("pievienotGramatu").addEventListener("click", () => {
 
-    let gramata = {nosaukums2: nosaukums2.value, adrese2: adrese2.value};
+    console.log(virsraksts.value);
 
-    nosaukums2.value = "";
-    adrese2.value = "";
-
-    gramatas.push(gramata);
-
-    render();
+    POP_UP.style.display = "none"
 })
-
-function render() {
-    let biblioteka = document.getElementById('saraksts');
-    biblioteka.innerHTML = "";
-
-    for(let i = 0; i < gramatas.length; i++) {
-        let gramata = `
-        <div class="gramata">
-            <h3>Virsraksts: ${gramatas[i].nosaukums2}</h3>
-            <h4>Autors: ${gramatas[i].adrese2}</h4>
-        </div>`;
-
-        biblioteka.innerHTML += gramata;
-    }
-
-    localStorage.setItem("gramatas", JSON.stringify(gramatas))
 }
