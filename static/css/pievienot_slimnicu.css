@@ -160,21 +160,7 @@ body {
     font-size: 15px;
 }
 
-.gramata {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 3px solid black;
-    border-radius: 15px;
-    height: 200px;
-    width: 150px;
-    padding: 15px;
-    margin: 20px;
-    background-color: darkkhaki;
-}
-
 #popUp {
-    display: none;
     position: fixed;
     z-index: 1;
     font-size: 30px;
@@ -208,4 +194,24 @@ input#autors {
     font-size: 20px;
     top: 297px;
     left: 1020px;
+}
+
+.gramata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    font-family: Sans-serif;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #D43D3D;
+}
+
+#biblioteka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
