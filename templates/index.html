@@ -1,67 +1,69 @@
-<!DOCTYPE html>
-<html lang="lv">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Slimnīca</title>
-</head>
-<body>
+{% extends 'base.html' %}
 
-    <div id='intro'>
-        <img src="https://cdn.discordapp.com/attachments/758385365912125571/844201918242357268/unknown.png" alt="logo" />
-        <div id='virsraksts'>
-            <h1>Projekts <br> "Medicīna"</h1>
-            <div id ='topButtons'>
-                <button id='mekletArstu2'>
-                    <a href="meklet_arstu.html">Meklēt ārstu</a>
-                </button>
-                <button id='pieteiktViziti2'>
-                    <a href="pieteikt_viziti.html">Pieteikt vizīti</a>
-                </button>
-                <button id='mekletViziti2'>
-                    <a href="meklet_viziti.html">Meklēt vizīti</a>
-                </button>
-                <button id='ieietPortala'>Ieiet portālā</button>
-                    
-            </div>
-            <form id='meklesana'>
-                <input type="text" id="meklet" placeholder="Meklēt...">
-                <input type="text" id="login" placeholder="Lietotātjvārds...">
-                <input type="text" id="parole" placeholder="Parole...">
-            </form> 
+{% block head %}
 
-        </div>
+<title>Slimnīca</title>
 
+{% endblock %}
 
-        <div id='hr'>
-            <hr>
-            <hr>
-        </div>
+{% block body %}
 
-
-        <div id='mainPhoto'>
-            <img id='fotografija' src="https://media.discordapp.net/attachments/768387809870086194/846705812219101214/Screenshot-2021-02-02-100646_960.png" alt="Hospital" width="50%">
-            <h2 class='vakcinacija'>BĒRNU UN JAUNIEŠU COVID-19 <br> VAKCINĀCIJA IR DROŠA UN <br> ATBALSTĀMA IZVĒLE</h2>
-            <button id='lasitVairak'>
-                <a href="tekst.html">Lasīt vairāk</a>
+<div id='intro'>
+    <img src="https://cdn.discordapp.com/attachments/758385365912125571/844201918242357268/unknown.png" alt="logo" />
+    <div id='virsraksts'>
+        <p id="nosaukums">
+            <a href="index.html" style="text-decoration: none; color: black;">Projekts <br> "Medicīna"</a>
+        </p>
+        <p id = "username_lapā" style="position: relative; font-size: 24px; left: 1375px; top: 45px;"></p>
+        <p style="position: relative; font-size: 24px; left: 1375px; top: -30px;">Esat ielogojušies kā: </p>
+        
+        <div id ='topButtons'>
+            <button id='mekletArstu2'>
+                <a href="/meklet_arstu.html" style="text-decoration: none; color: black;">Meklēt ārstu</a>
             </button>
-            <div id='bottom'>
-                <button id='mekletArstu'>
-                    <a href="meklet_arstu.html">Meklēt ārstu</a>
-                </button>
-                <button id='pieteiktViziti'>
-                    <a href="pieteikt_viziti.html">Pieteikt vizīti</a>
-                </button>
-                <button id='mekletViziti'>
-                    <a href="meklet_viziti.html">Meklēt vizīti</a>
-                </button>
-            </div>
+            <button id='pieteiktViziti2'>
+                <a href="pieteikt_viziti.html" style="text-decoration: none; color: black;">Pieteikt vizīti</a>
+            </button>
+            <button id='mekletViziti2'>
+                <a href="meklet_viziti.html" style="text-decoration: none; color: black;">Meklēt vizīti</a>
+            </button>
+            <button id='iziet'>
+                <a href="/" style="text-decoration: none; color: black;">Iziet no portāla</a>
+            </button>
         </div>
-
+        <form id='meklesana' action="/" method="POST">
+            <input type="text" id="meklet" name="meklet" placeholder="Meklēt...">
+        </form> 
 
     </div>
 
-</body>
-</html>
+    <div id='hr'>
+        <hr>
+        <hr>
+    </div>
+
+
+    <div id='mainPhoto'>
+        <img id='fotografija' src="https://media.discordapp.net/attachments/768387809870086194/846705812219101214/Screenshot-2021-02-02-100646_960.png" alt="Hospital" width="50%">
+        <h2 class='vakcinacija'>BĒRNU UN JAUNIEŠU COVID-19 <br> VAKCINĀCIJA IR DROŠA UN <br> ATBALSTĀMA IZVĒLE</h2>
+        <button id='lasitVairak'>
+            <a href="tekst.html" style="text-decoration: none; color: black;">Lasīt vairāk</a>
+        </button>
+        <div id='bottom'>
+            <button id='mekletArstu'>
+                <a href="meklet_arstu.html" style="text-decoration: none; color: black;">Meklēt ārstu</a>
+            </button>
+            <button id='pieteiktViziti'>
+                <a href="pieteikt_viziti.html" style="text-decoration: none; color: black;">Pieteikt vizīti</a>
+            </button>
+            <button id='mekletViziti'>
+                <a href="meklet_viziti.html" style="text-decoration: none; color: black;">Meklēt vizīti</a>
+            </button>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+
+</div>
+
+{% endblock %}

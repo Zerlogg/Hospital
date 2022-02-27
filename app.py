@@ -51,11 +51,15 @@ def tekst():
     return render_template("tekst.html")
 
 @app.route('/registracija.html')
-def login():
+def registracija():
     return render_template("registracija.html")
 
+@app.route('/')
+def login():
+    return render_template("login.html")
 
-@app.route('/index2.html', methods=['POST', 'GET'])
+
+@app.route('/index.html', methods=['POST', 'GET'])
 def index():
     if request.method == 'POST':
         task_content = request.form['meklet']
@@ -64,13 +68,13 @@ def index():
         try:
             db.session.add(new_task)
             db.session.commit()
-            return redirect('/index2.html')
+            return redirect('/index.html')
         except:
             return 'There was an issue adding your task'
 
     else:
         tasks = Todo.query.order_by(Todo.date_created).all()
-        return render_template('index2.html', tasks=tasks)
+        return render_template('index.html', tasks=tasks)
         
 
 @app.route('/delete/<int:id>')

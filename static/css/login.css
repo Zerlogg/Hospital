@@ -2,7 +2,7 @@ body{
     background-color: lightgray;
 }
 
-#regKont{
+#logKont{
     position: absolute;
     top: 200px;
     left: 650px;
@@ -13,7 +13,7 @@ body{
     border-radius: 5px;
 }
 
-#forma {
+#logForma {
     position:relative;
     left: 150px;
     top: 50px;
@@ -55,14 +55,14 @@ h2 {
     font-family:Sans-serif;
 }
 
-#tituls {
+#logTituls {
     position: relative;
     font-size: 30px;
-    left: 20px;
+    left: 110px;
     top: -10px;
 }
 
-#apstiprinat {
+#logApstiprinat {
     position: relative;
     top: 40px;
     left: -50px;
@@ -74,16 +74,7 @@ h2 {
     font-size: 20px;
 }
 
-#atcelt {
-    position: relative;
-    top: 150px;
-    width: 400px;
-    height: 150px;
-    font-size: 20px;
-    left: 100px;
-}
-
-#registration {
+#login {
     position: relative;
     width: 400px;
     height: 150px;
@@ -92,7 +83,16 @@ h2 {
     top: 70px;
 }
 
-#registreties {
+#registration {
+    position: relative;
+    top: 150px;
+    width: 400px;
+    height: 150px;
+    font-size: 20px;
+    left: 100px;
+}
+
+#Login {
     position: relative;
     width: 200px;
     top: 290px;
@@ -105,7 +105,18 @@ h2 {
 #atpakal {
     position: relative;
     width: 200px;
+    top: 270px;
     height: 50px;
     left: 150px;
     font-size: 20px;
+}
+
+#registreties {
+    position: relative;
+    width: 200px;
+    top: 270px;
+    height: 50px;
+    left: 70px;
+    font-size: 20px;
+
 }
