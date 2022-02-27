@@ -168,7 +168,7 @@ h2 {
     top: 450px;
 }
 
-#pievienot_poga{
+#pievienot2{
     position: fixed;
     width: 110px;
     height: 35px;
@@ -180,7 +180,7 @@ h2 {
     top: 376px;
 }
 
-#vards_uzvards_ievade {
+input#vards_uzvards_ievade {
     position: absolute;
     width: 400px;
     height: 25px;
@@ -188,25 +188,12 @@ h2 {
     outline: none;
     font-family: Sans-serif;
     font-size: 20px;
-    left: -557px;
-    top: 210px;
-    background-color:#ffffff;
-}
-
-#darba_laiks_ievade {
-    position: absolute;
-    width: 400px;
-    height: 25px;
-    border: 1px solid black;
-    outline: none;
-    font-family: Sans-serif;
-    font-size: 20px;
-    left: -557px;
+    left: 45px;
     top: 300px;
     background-color:#ffffff;
 }
 
-#darbibas_joma_ievade {
+input#darba_laiks_ievade {
     position: absolute;
     width: 400px;
     height: 25px;
@@ -214,12 +201,12 @@ h2 {
     outline: none;
     font-family: Sans-serif;
     font-size: 20px;
-    left: -50px;
-    top: 210px;
+    left: 45px;
+    top: 390px;
     background-color:#ffffff;
 }
 
-#slimnica_ievade {
+input#darbibas_joma_ievade {
     position: absolute;
     width: 400px;
     height: 25px;
@@ -227,7 +214,76 @@ h2 {
     outline: none;
     font-family: Sans-serif;
     font-size: 20px;
-    left: -50px;
+    left: 550px;
     top: 300px;
     background-color:#ffffff;
+}
+
+input#slimnica_ievade {
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    border: 1px solid black;
+    outline: none;
+    font-family: Sans-serif;
+    font-size: 20px;
+    left: 550px;
+    top: 390px;
+    background-color:#ffffff;
+}
+
+#jaunaPoga2 {
+    display: none;
+    position: fixed;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 170px;
+    height: 35px;
+    font-size: 20px;
+    top: 200px;
+    left: 30px;
+}
+
+#popUp2 {
+    z-index: 1;
+    font-size: 30px;
+    font-family: Sans-serif;
+}
+
+.loads2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    font-family: Sans-serif;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #DE8706;
+}
+
+#info2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#dzest2 {
+    display: flex;
+    border: 2px solid black;
+    font-family: Sans-serif;
+    border-radius: 15px;
+    height: 30px;
+    width: 90px;
+    font-size: 15px;
+}
+
+#linijas {
+    margin-top: 210px;
+}
+
+#second {
+    margin-top: -5px;
 }

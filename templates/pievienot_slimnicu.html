@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/pievienot_slimnicu.css') }}">
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"> </script>
     <title>Pievienot Slimnīcu</title>
 
 {% endblock %}
@@ -47,7 +46,7 @@
         </div>
 
         <div id="poga">
-            <button id='jaunaGramata'>Pievienot ārstu</button>
+            <button id='jaunaPoga'>Pievienot ārstu</button>
         </div>
 
         <div id='linijas'>
@@ -59,16 +58,16 @@
             <form id="form">
                 <p id='nosaukums'>Nosaukums:</p>
                 <p id='adrese'>Adrese:</p>
-                <input type="text" id="virsraksts">
-                <input type="text" id="autors">
+                <input type="text" id="nosaukums2">
+                <input type="text" id="adrese2">
+                <button type="button" id="pievienot">Pievienot</button>
             </form>
         </div>
 
-        <div id="biblioteka">
-        </div>
-        
-        <div id="">
+        <div id="info">
         </div>
         
     </div>
+
+    <script src="{{ url_for('static', filename='js/pievienot_slimnicu.js') }}"> </script>
 {% endblock %}

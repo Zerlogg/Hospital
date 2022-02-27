@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/pievienot_arstu.css') }}">
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"> </script>
     <title>Slimnīca</title>
 
 {% endblock %}
@@ -38,26 +37,7 @@
             </div>
             <form id='meklesana'>
                 <input type="text" id="meklet" placeholder="Meklēt...">
-                <input type="text" id="vards_uzvards_ievade">
-                <input type="text" id="darba_laiks_ievade">
-                <input type="text" id="darbibas_joma_ievade">
-                <input type="text" id="slimnica_ievade">
             </form> 
-
-            <div id='vards_uzvards_teksts'>
-                <p>Vārds, uzvārds:</p>
-            </div>
-            <div id='darba_laiks_teksts'>
-                <p>Darba laiks:</p>
-            </div>
-            <div id='darbibas_joma_teksts'>
-                <p>Darbības joma:</p>
-            </div>
-            <div id='slimnica_teksts'>
-                <p>Slimnīca:</p>
-            </div>
-
-            <button id='pievienot_poga'>Pievienot</button>
 
         </div>
 
@@ -66,12 +46,35 @@
             <hr>
         </div>
 
-        <div id='hr'>
-            <hr id='hr2'>
-            <hr id='hr3'>
+        <div id="poga">
+            <button id='jaunaPoga2'>Pievienot ārstu</button>
         </div>
 
+        <div id='linijas'>
+            <hr id='first'>
+            <hr id='second'>
+        </div>
+
+        <div id="popUp2">
+            <form id="form">
+                <p id='vards_uzvards_teksts'>Vārds, uzvārds:</p>
+                <p id='darba_laiks_teksts'>Darba laiks:</p>
+                <p id='darbibas_joma_teksts'>Darbības joma:</p>
+                <p id='slimnica_teksts'>Slimnīca:</p>
+                <input type="text" id="vards_uzvards_ievade">
+                <input type="text" id="darba_laiks_ievade">
+                <input type="text" id="darbibas_joma_ievade">
+                <input type="text" id="slimnica_ievade">
+                <button type="button" id="pievienot2">Pievienot</button>
+            </form>
+        </div>
+
+    <div id="info2">
     </div>
+
+</div>
+
+    <script src="{{ url_for('static', filename='js/pievienot_arstu.js') }}"> </script>
 
 {% endblock %}
 
