@@ -80,7 +80,7 @@ body{
     font-family: Sans-serif;
     font-size: 20px;
     left: 60px;
-    top: 880px;
+    top: 840px;
 }
 
 #drukat_viziti_poga {
@@ -92,7 +92,7 @@ body{
     font-family: Sans-serif;
     font-size: 20px;
     left: 310px;
-    top: 880px;
+    top: 840px;
 }
 
 #vizites_nr {
@@ -243,7 +243,7 @@ h2 {
 
 #pacienta_vards_uzvards_lauks {
     position: absolute;
-    top: 170px;
+    top: 155px;
     left: 152px;
     width: 400px;
     height: 30px;
@@ -253,7 +253,7 @@ h2 {
 
 #vizites_numurs_lauks {
     position: absolute;
-    top: 330px;
+    top: 315px;
     left: 152px;
     width: 400px;
     height: 30px;
@@ -263,7 +263,7 @@ h2 {
 
 #slimnica_lauks {
     position: absolute;
-    top: 490px;
+    top: 475px;
     left: 152px;
     width: 400px;
     height: 30px;
@@ -273,7 +273,7 @@ h2 {
 
 #vizites_laiks_lauks {
     position: absolute;
-    top: 170px;
+    top: 155px;
     left: 750px;
     width: 400px;
     height: 30px;
@@ -283,7 +283,7 @@ h2 {
 
 #arsts_lauks {
     position: absolute;
-    top: 330px;
+    top: 315px;
     left: 750px;
     width: 400px;
     height: 30px;
@@ -293,7 +293,7 @@ h2 {
 
 #arsta_darbibas_joma_lauks {
     position: absolute;
-    top: 490px;
+    top: 475px;
     left: 750px;
     width: 400px;
     height: 30px;
@@ -304,42 +304,42 @@ h2 {
 #pacienta_vards_uzvards_teksts {
     position: fixed;
     left: 52px;
-    top: 400px;
+    top: 380px;
     font-size: 26px;
 }
 
 #vizites_numurs_teksts {
     position: fixed;
     left: 52px;
-    top: 560px;
+    top: 540px;
     font-size: 26px;
 }
 
 #slimnica_teksts {
     position: fixed;
     left: 52px;
-    top: 720px;
+    top: 700px;
     font-size: 26px;
 }
 
 #vizites_laiks_teksts {
     position: fixed;
     left: 650px;
-    top: 400px;
+    top: 380px;
     font-size: 26px;
 }
 
 #arsts_teksts {
     position: fixed;
     left: 650px;
-    top: 560px;
+    top: 540px;
     font-size: 26px;
 }
 
 #arsta_darbibas_joma_teksts {
     position: fixed;
     left: 650px;
-    top: 720px;
+    top: 700px;
     font-size: 26px;
 }
 

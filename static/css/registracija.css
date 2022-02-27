@@ -2,7 +2,7 @@ body{
     background-color: lightgray;
 }
 
-.regKont{
+#regKont{
     position: absolute;
     top: 200px;
     left: 650px;
@@ -21,29 +21,32 @@ body{
 
 #ievadietLietotajvardu {
     position: relative;
-    left: -50px;
+    left: 100px;
     width: 400px;
-    height: 30px;
+    height: 40px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
+    top: 100px;
 }
 
 #ievadietParoli {
     position: relative;
-    left: -50px;
+    left: 100px;
     width: 400px;
-    height: 30px;
+    height: 40px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
+    top: 150px;
 }
 
 #atkartojietParoli {
     position: relative;
-    left: -50px;
+    left: 100px;
     width: 400px;
-    height: 30px;
+    height: 40px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
+    top: 200px;
 }
 
 h2 {
@@ -73,12 +76,37 @@ h2 {
 
 #atcelt {
     position: relative;
-    top: 40px;
-    left: 90px;
-    width: 110px;
-    height: 30px;
-    background-color: #d1c1c1;
-    outline: 2px groove rgb(0, 0, 0);
-    border-radius: 8px;
+    top: 150px;
+    width: 400px;
+    height: 150px;
+    font-size: 20px;
+    left: 100px;
+}
+
+#registration {
+    position: relative;
+    width: 400px;
+    height: 150px;
+    font-size: 20px;
+    left: 100px;
+    top: 70px;
+}
+
+#registreties {
+    position: relative;
+    width: 200px;
+    top: 290px;
+    height: 50px;
+    left: 70px;
+    font-size: 20px;
+
+}
+
+#atpakal {
+    position: relative;
+    width: 200px;
+    top: 290px;
+    height: 50px;
+    left: 150px;
     font-size: 20px;
 }

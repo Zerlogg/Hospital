@@ -12,31 +12,16 @@
 {% endblock %}
 
 {% block body %}
-    
-    
-    <div class="regKont">
-        <form id="forma">
 
-            <h2 id="tituls">Reģistrācijas lapa</h2>
-            <br>
-            <input type="name" id="ievadietLietotajvardu" name="ievadietLietotajvardu" placeholder="Ievadiet lietotājvārdu..."/>   
-            <br>
-            <br>
-            <br>
-            <input type="password" id="ievadietParoli" name="ievadietParoli" placeholder="Ievadiet paroli...">  
-            <br>
-            <br>
-            <br>  
-            <input type="password" id="atkartojietParoli" name="atkartojietParoli" placeholder="Atkārtojiet paroli..."> 
-            <br>
-            <br>
-            <br>  
-            <input type="button" id="apstiprinat" value="Apstiprināt"/>
-            <button type="button" id='atcelt'>
-                <a href="index2.html" style="text-decoration: none; color: black;">Atcelt</a>
+
+    <div id="regKont">
+            <button id="registration">Registrācija</button>
+            <button id="atcelt">
+                <a href = "/index2.html">Atcelt</a>
             </button>
-        </form>
     </div>
+
+    <script src="static/js/registracija.js"></script>
 
 {% endblock %}
 

@@ -153,18 +153,6 @@ body{
     top: 175px;
 }
 
-#registracija{
-    position: fixed;
-    width: 140px;
-    height: 35px;
-    border-radius: 20px;
-    border: 1px solid black;
-    font-family: Sans-serif;
-    font-size: 20px;
-    left: 1600px;
-    top: 175px;
-}
-
 #virsraksts {
     position: fixed;
     left: 300px;
@@ -233,4 +221,16 @@ h2 {
     left: 300px;
     top: 0px;
     font-size: 50px;
+}
+
+#registracija{
+    position: fixed;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: Sans-serif;
+    font-size: 20px;
+    top: 90px;
+    right: 45px;
 }

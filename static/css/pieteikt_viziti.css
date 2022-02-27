@@ -328,7 +328,7 @@ h2 {
 
 #pacienta_vards_uzvards_lauks {
     position: absolute;
-    top: 860px;
+    top: 850px;
     left: 950px;
     width: 600px;
     height: 30px;
@@ -339,7 +339,7 @@ h2 {
 #pacienta_vards_uzvards_teksts {
     position: fixed;
     left: 950px;
-    top: 800px;
+    top: 790px;
     font-size: 26px;
 }
 
