@@ -216,7 +216,7 @@ input#adrese2 {
 }
 
 #dzest {
-    display: flex;
+    text-align: center;
     top: 560px;
     border: 2px solid black;
     font-family: Sans-serif;
@@ -224,4 +224,12 @@ input#adrese2 {
     height: 30px;
     width: 90px;
     font-size: 15px;
+}
+
+#nosaukums_virsraksts {
+    position: fixed;
+    font-weight: bold;
+    left: 300px;
+    top: 0px;
+    font-size: 50px;
 }

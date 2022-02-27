@@ -354,3 +354,11 @@ h2 {
     left: 1600px;
     top: 175px;
 }
+
+#nosaukums {
+    position: fixed;
+    font-weight: bold;
+    left: 300px;
+    top: 0px;
+    font-size: 50px;
+}

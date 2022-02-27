@@ -188,3 +188,11 @@ h2 {
     height: 100vh;
     max-width: 1920px;
 }
+
+#nosaukums {
+    position: fixed;
+    font-weight: bold;
+    left: 300px;
+    top: 0px;
+    font-size: 50px;
+}

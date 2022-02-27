@@ -271,7 +271,7 @@ input#slimnica_ievade {
 }
 
 #dzest2 {
-    display: flex;
+    text-align: center;
     border: 2px solid black;
     font-family: Sans-serif;
     border-radius: 15px;
@@ -286,4 +286,12 @@ input#slimnica_ievade {
 
 #second {
     margin-top: -5px;
+}
+
+#nosaukums {
+    position: fixed;
+    font-weight: bold;
+    left: 300px;
+    top: 0px;
+    font-size: 50px;
 }

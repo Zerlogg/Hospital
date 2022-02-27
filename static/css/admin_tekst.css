@@ -120,3 +120,11 @@ body{
     left: 600px;
     top: 597px;
 }
+
+#nosaukums {
+    position: fixed;
+    font-weight: bold;
+    left: 300px;
+    top: 0px;
+    font-size: 50px;
+}

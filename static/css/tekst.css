@@ -115,8 +115,6 @@ body{
     font-size: 24px;
 }
 
-
-
 #login {
     position: absolute;
     width: 300px;
@@ -200,4 +198,12 @@ h2 {
     font-size: 20px;
     left: 1600px;
     top: 175px;
+}
+
+#nosaukums {
+    position: fixed;
+    font-weight: bold;
+    left: 300px;
+    top: 0px;
+    font-size: 50px;
 }
